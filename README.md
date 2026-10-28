@@ -1,3 +1,4 @@
+
 # Python Sales Data Analyzer
 
 A Python-based data analysis project that analyzes retail sales data and generates useful business insights through data cleaning, summary statistics, product analysis, category analysis, regional analysis, and monthly sales trends.
@@ -75,9 +76,48 @@ This project uses Python, Pandas, and Matplotlib to analyze retail sales data, c
 
 ## How to Run
 
-1. Install Python on your computer.
+### 1. Install Python
 
-2. Install the required libraries:
+Install Python on your computer if it is not already installed.
 
-   ```bash
-   pip install pandas matplotlib
+### 2. Download the Project
+
+Clone the repository using:
+
+```bash
+git clone https://github.com/rajnikumari-cse/Python-Sales-Data-Analyzer.git
+```
+
+Open the downloaded project folder:
+
+```bash
+cd Python-Sales-Data-Analyzer
+```
+
+### 3. Install Required Libraries
+
+```bash
+pip install pandas matplotlib
+```
+
+### 4. Run the Python Script
+
+Make sure `sales_analyzer.py` and `sales_data.csv` are in the same folder, then run:
+
+```bash
+python sales_analyzer.py
+```
+
+### 5. View the Results
+
+The sales summary will be displayed in the terminal, and the generated chart images will be saved in the project folder.
+
+## Conclusion
+
+This project demonstrates practical skills in data cleaning, exploratory data analysis, sales reporting, and data visualization using Python, Pandas, and Matplotlib.
+
+## Author
+
+Rajni Kumari
+
+GitHub: [rajnikumari-cse](https://github.com/rajnikumari-cse)
