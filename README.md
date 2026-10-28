@@ -1,17 +1,16 @@
-
 # Python Sales Data Analyzer
 
-A Python-based data analysis project that analyzes retail sales data, checks data quality, and generates useful business insights using Pandas and Matplotlib.
+A Python-based data analysis project that analyzes retail sales data and generates useful business insights through data cleaning, summary statistics, product analysis, category analysis, regional analysis, and monthly sales trends.
 
 ## Project Overview
 
-This project analyzes retail sales data to understand product performance, category revenue, regional sales, and monthly sales trends. It also performs basic data quality checks and generates visual charts to support business decision-making.
+This project uses Python, Pandas, and Matplotlib to analyze retail sales data, check data quality, identify sales trends, and visualize business performance.
 
 ## Features
 
 - Data quality checks for missing values and duplicate rows
 - Validation of dates, quantities, and prices
-- Total sales, total orders, average order value, and units sold
+- Calculation of total sales, total orders, average order value, and units sold
 - Product-wise sales analysis
 - Category-wise sales analysis
 - Region-wise sales analysis
@@ -24,7 +23,7 @@ This project analyzes retail sales data to understand product performance, categ
 - Python
 - Pandas
 - Matplotlib
-- CSV
+- CSV dataset
 
 ## Key Results
 
@@ -38,15 +37,14 @@ This project analyzes retail sales data to understand product performance, categ
 | Best-Performing Category | Electronics |
 | Highest-Sales Region | North |
 | Best Sales Month | May 2026 |
-| Highest-Value Order | ₹1,10,000 |
 
 ## Business Insights
 
 - Laptop generated the highest sales among individual products.
 - Electronics was the highest-revenue category.
-- North recorded the highest regional sales.
-- May 2026 was the best month by total sales.
-- Order ID 1001 had the highest order value of ₹1,10,000.
+- North was the highest-sales region.
+- May 2026 recorded the highest monthly sales.
+- Order 1001 had the highest order value at ₹1,10,000.
 
 ## Sales Charts
 
@@ -77,26 +75,9 @@ This project analyzes retail sales data to understand product performance, categ
 
 ## How to Run
 
-### 1. Install Required Libraries
+1. Install Python on your computer.
 
-```bash
-pip install pandas matplotlib
-```
+2. Install the required libraries:
 
-### 2. Keep the Files Together
-
-Make sure `sales_analyzer.py` and `sales_data.csv` are in the same folder.
-
-### 3. Run the Project
-
-```bash
-python sales_analyzer.py
-```
-
-The sales summary will appear in the terminal, and the generated charts will be saved in the project folder.
-
-## Conclusion
-
-This project demonstrates basic data cleaning, exploratory data analysis, sales reporting, and data visualization using Python.
-
-
+   ```bash
+   pip install pandas matplotlib
