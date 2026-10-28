@@ -1,11 +1,11 @@
 
 # Python Sales Data Analyzer
 
-A Python-based data analysis project that analyzes retail sales data and generates useful business insights through summary statistics, product analysis, category analysis, regional analysis, and monthly sales trends.
+A Python-based data analysis project that analyzes retail sales data, evaluates data quality, and generates meaningful business insights using Pandas and Matplotlib.
 
 ## Project Overview
 
-This project uses Python, Pandas, and Matplotlib to analyze retail sales data, check data quality, identify sales trends, and visualize business performance.
+This project analyzes retail sales data to understand product performance, category revenue, regional sales, and monthly sales trends. It also performs basic data quality checks and generates visual charts to support business decision-making.
 
 ## Features
 
@@ -24,7 +24,7 @@ This project uses Python, Pandas, and Matplotlib to analyze retail sales data, c
 - Python
 - Pandas
 - Matplotlib
-- CSV dataset
+- CSV
 
 ## Key Results
 
@@ -38,18 +38,37 @@ This project uses Python, Pandas, and Matplotlib to analyze retail sales data, c
 | Best-Performing Category | Electronics |
 | Highest-Sales Region | North |
 | Best Sales Month | May 2026 |
+| Highest-Value Order | ₹1,10,000 |
 
 ## Business Insights
 
 - Laptop generated the highest sales among individual products.
 - Electronics was the highest-revenue category.
-- North was the highest-sales region.
-- May 2026 recorded the highest monthly sales.
-- Order 1001 had the highest order value at ₹1,10,000.
+- North recorded the highest regional sales.
+- May 2026 was the best month by total sales.
+- Order ID 1001 had the highest order value of ₹1,10,000.
+
+## Sales Charts
+
+### 1. Monthly Sales
+
+![Monthly Sales Chart](monthly_sales.png)
+
+### 2. Product-Wise Sales
+
+![Product Sales Chart](product_sales.png)
+
+### 3. Category-Wise Sales
+
+![Category Sales Chart](category_sales.png)
+
+### 4. Region-Wise Sales
+
+![Region Sales Chart](region_sales.png)
 
 ## Project Files
 
-- `python_sales_analysis.py` — Python analysis script
+- `sales_analyzer.py` — Python analysis script
 - `sales_data.csv` — Retail sales dataset
 - `monthly_sales.png` — Monthly sales chart
 - `product_sales.png` — Product-wise sales chart
@@ -58,22 +77,30 @@ This project uses Python, Pandas, and Matplotlib to analyze retail sales data, c
 
 ## How to Run
 
-1. Install Python on your computer.
-2. Install the required libraries:
+### 1. Install Python
 
-   ```bash
-   pip install pandas matplotlib
-   ```
+Install Python on your computer if it is not already installed.
 
-3. Keep `python_sales_analysis.py` and `sales_data.csv` in the same folder.
-4. Run the script:
+### 2. Install Required Libraries
 
-   ```bash
-   python python_sales_analysis.py
-   ```
+```bash
+pip install pandas matplotlib
+```
 
-5. View the sales summary in the terminal and the generated charts in the project folder.
+### 3. Keep Project Files Together
+
+Make sure `sales_analyzer.py` and `sales_data.csv` are in the same folder.
+
+### 4. Run the Project
+
+```bash
+python sales_analyzer.py
+```
+
+The analysis summary will appear in the terminal, and the charts will be saved in the project folder.
 
 ## Conclusion
 
 This project demonstrates basic data cleaning, exploratory data analysis, sales reporting, and data visualization using Python.
+
+---
