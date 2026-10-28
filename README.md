@@ -1,7 +1,7 @@
 
 # Python Sales Data Analyzer
 
-A Python-based data analysis project that analyzes retail sales data, evaluates data quality, and generates meaningful business insights using Pandas and Matplotlib.
+A Python-based data analysis project that analyzes retail sales data, checks data quality, and generates useful business insights using Pandas and Matplotlib.
 
 ## Project Overview
 
@@ -50,19 +50,19 @@ This project analyzes retail sales data to understand product performance, categ
 
 ## Sales Charts
 
-### 1. Monthly Sales
+### Monthly Sales
 
 ![Monthly Sales Chart](monthly_sales.png)
 
-### 2. Product-Wise Sales
+### Product-Wise Sales
 
 ![Product Sales Chart](product_sales.png)
 
-### 3. Category-Wise Sales
+### Category-Wise Sales
 
 ![Category Sales Chart](category_sales.png)
 
-### 4. Region-Wise Sales
+### Region-Wise Sales
 
 ![Region Sales Chart](region_sales.png)
 
@@ -77,30 +77,26 @@ This project analyzes retail sales data to understand product performance, categ
 
 ## How to Run
 
-### 1. Install Python
-
-Install Python on your computer if it is not already installed.
-
-### 2. Install Required Libraries
+### 1. Install Required Libraries
 
 ```bash
 pip install pandas matplotlib
 ```
 
-### 3. Keep Project Files Together
+### 2. Keep the Files Together
 
 Make sure `sales_analyzer.py` and `sales_data.csv` are in the same folder.
 
-### 4. Run the Project
+### 3. Run the Project
 
 ```bash
 python sales_analyzer.py
 ```
 
-The analysis summary will appear in the terminal, and the charts will be saved in the project folder.
+The sales summary will appear in the terminal, and the generated charts will be saved in the project folder.
 
 ## Conclusion
 
 This project demonstrates basic data cleaning, exploratory data analysis, sales reporting, and data visualization using Python.
 
----
+
